@@ -1,0 +1,88 @@
+#footer{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50vh 30vh 20vh;
+    background: white;
+    color: black;
+}
+
+#footer .one{
+    grid-column: 1/4;
+    grid-row: 1;
+    border-bottom: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#footer .two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer .two a{
+    color: rgb(0, 0, 0);
+    padding-left: 50px;
+    padding-right: 20px;
+}
+#footer .two hr{
+    transform: rotate(90deg);
+}
+
+#footer .two a .fa-facebook:hover{
+    transform: scale(1.2);
+    color: rgb(19, 0, 126);
+}
+
+#footer .two a .fa-instagram:hover{
+    transform: scale(1.2);
+    color: rgb(126, 0, 120);
+}
+
+#footer .two a .fa-youtube:hover{
+    transform: scale(1.2);
+    color: rgb(126, 0, 0);
+}
+
+#footer .three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+}
+
+
+
+#footer .three h3{
+    writing-mode: vertical-rl;
+    font-size: 25px;
+}
+
+#footer .three li{
+    list-style: none;
+}
+
+#footer .three li a{
+    color: black;
+}
+
+#footer .four {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer .five{
+    grid-column: 1/4;
+    border-top: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+

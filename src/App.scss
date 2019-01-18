@@ -1,0 +1,177 @@
+//Colors
+$color1: rgb(181, 196, 219);
+$color2: rgb(40, 49, 63);
+$color3: rgb(76, 92, 117);
+$color4: #473335;
+$color5: rgb(219, 188, 52);
+
+body{
+    color: $color1;
+    background: $color2;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+div.App{
+    min-height: 100vh;
+    width: 100%;
+}
+
+//0
+
+div.grid-content0{
+    height: 100vh;
+    width: 100%;
+}
+
+div.grid-content0 .content{
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(4, 25vw);
+}
+
+
+
+@media(max-width: 660px){
+    div.grid-content0 .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    div.grid-content0{
+        height: 100%;
+    }
+    div.grid-content0 .content Card{
+        
+        margin-top: 10px;
+    }
+}
+
+@media(max-height: 420px){
+    div.grid-content0{
+        height: 100%;
+    }
+}
+
+
+div.grid-content0 .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.grid-content0 .title h1{
+    font-family: 'Atifa';
+    color: $color5;
+}
+
+
+//01
+
+div.content01{
+    height: 100%;
+    width: 100%;
+}
+
+
+@media(max-width: 1100px){
+    div.content01{
+        height: 100%;
+    }
+}
+
+@media(max-height: 420px){
+    div.content01{
+        height: 100%;
+    }
+}
+
+
+
+
+div.content01 .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.content01 .title h1{
+    font-family: 'Atifa';
+    color: $color5
+}
+
+div.contet01 p{
+    font-size: calc(10px + 2vmin);
+}
+
+div.content01 .text-grid{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+div.content01 .text-grid .text_grid_1{
+    grid-row: 2;
+    grid-column: 3/5; 
+}
+
+div.content01 .text-grid .hr1{
+    margin-top: -50px;
+}
+
+
+div.content01 .text-grid .text_grid_2{
+    grid-row: 3;
+    grid-column: 2; 
+}
+
+
+
+//02
+
+div.cotent02{
+    height: 100vh;
+    width: 100%;
+}
+
+//03
+
+div.content03{
+    height: 120vh;
+    width: 100%;
+}
+
+div.content03 .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.content03 .title h1{
+    font-family: 'Atifa';
+    color: $color5;
+}
+
+
+@media(max-width: 700px){
+    div.content03{
+        height: 130vh;
+    }
+}
+
+@media(max-width: 600px){
+    div.content03{
+        height: 150vh;
+    }
+}
+
+@media(max-height: 420px){
+    div.content03{
+        height: 230vh;
+    }
+}
+
+
+
+
