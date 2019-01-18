@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './pages/header/header'
-import Footer from './pages/footer/footer'
+import Footer from './components/footer/footer'
 import Content00 from './pages/content00/content00'
 import Content01 from './pages/content01/content01'
 import Content02 from './pages/content02/content02'
@@ -23,7 +23,7 @@ class App extends Component {
       
       < Content03 />
 
-      
+      < Footer />
       </div>
     );
   }
