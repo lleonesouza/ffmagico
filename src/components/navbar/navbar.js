@@ -20,7 +20,7 @@ const navbar = props => (
 
 
                 <h1 className="text"> Felipe Faccioli </h1>
-                <hr width="200px" />
+                <hr width="350px" />
 
                 < List />
 

@@ -48,6 +48,30 @@ body{
     min-height: 100%;
 }
 
+@media (max-width: 700px){
+    .fullscreen video{
+        position: relative;
+        right: 50%;
+
+    }
+
+}
+
+@media (max-width: 420px){
+    .fullscreen{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .fullscreen video{
+        min-width: 50%;
+        min-height: auto;
+    }
+}
+
 .overlay{
     height: 100vh;
     width: 100vw;
