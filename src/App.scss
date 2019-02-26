@@ -20,7 +20,7 @@ div.App{
 //0
 
 div.grid-content0{
-    height: 100vh;
+    height: 130vh;
     width: 100%;
 }
 
@@ -72,23 +72,8 @@ div.grid-content0 .title h1{
 div.content01{
     height: 100%;
     width: 100%;
+    background: rgb(5, 5, 5);
 }
-
-
-@media(max-width: 1100px){
-    div.content01{
-        height: 100%;
-    }
-}
-
-@media(max-height: 420px){
-    div.content01{
-        height: 100%;
-    }
-}
-
-
-
 
 div.content01 .title{
     display: flex;
@@ -109,6 +94,12 @@ div.content01 .text-grid{
     display: grid;
     grid-template-columns: 1fr 2.5fr 2fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+}
+
+@media (max-width:500px){
+    div.content01 .text-grid{
+        grid-template-rows: 1fr 1fr 0.5fr;
+    }
 }
 
 div.content01 .text-grid .text_grid_1{
@@ -138,14 +129,18 @@ div.cotent02{
 //03
 
 div.content03{
-    height: 120vh;
+    height: 90vh;
     width: 100%;
 }
 
 div.content03 .title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-width: 350px;
+    height: 500px;
+    border: 1px white solid;
+    border-radius: 50px;
+}
+div.content03 .title:hover{
+    background: black;
 }
 
 div.content03 .title h1{
@@ -154,29 +149,6 @@ div.content03 .title h1{
 }
 
 
-@media(max-width: 700px){
-    div.content03{
-        height: 130vw;
-    }
-}
-
-@media(max-width: 600px){
-    div.content03{
-        height: 250vw;
-    }
-}
-
-@media(max-width: 350px){
-    div.content03{
-        height: 300vw;
-    }
-}
-
-@media(max-height: 420px){
-    div.content03{
-        height: 180vh;
-    }
-}
 
 
 

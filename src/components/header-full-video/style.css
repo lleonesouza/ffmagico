@@ -51,8 +51,7 @@ body{
 @media (max-width: 700px){
     .fullscreen video{
         position: relative;
-        right: 50%;
-
+        right: 45%;
     }
 
 }
