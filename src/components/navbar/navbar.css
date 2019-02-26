@@ -62,4 +62,20 @@ div.li ul li a:hover,
 div.li ul li a:active {
   color: #fa932f;
 }
+
+.nav .side_nav {
+  display: none;
+}
+
+@media (max-width: 420px) {
+  div.list {
+    display: none;
+  }
+  .nav .side_nav {
+    display: block;
+  }
+  .nav hr {
+    border-top: 1px solid rgba(181, 196, 219, 0);
+  }
+}
 /*# sourceMappingURL=navbar.css.map */

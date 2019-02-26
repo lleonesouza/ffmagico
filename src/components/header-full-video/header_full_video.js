@@ -12,7 +12,9 @@ export default class header_full_video extends Component {
         <div className="fullscreen">
             <video src={video2} autoPlay muted loop/>
         </div>
+
         <div className="overlay"/>
+
         <div className="header-content">
             
         </div>

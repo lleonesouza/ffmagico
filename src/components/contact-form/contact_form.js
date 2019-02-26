@@ -5,21 +5,29 @@ export default class contact_form extends Component {
     render() {
         return (
             <div id="contact_form">
-                
+
                 <div className="wrapper">
 
                     <div className="company">
                         <h3>Como me encontrar?</h3>
                         <ul>
-                        <br />
+                            <br />
 
-                        <li>  <i class="fas fa-phone"></i> FACE</li>
+                            <li>
+                                <i class="fab fa-facebook"></i> <a href="https://www.facebook.com/felipe.faccioli.9"> facebook/ </a>
+                            </li>
                             <br />
-                            <li>  <i class="fas fa-road"></i> INSTA</li>
+                            <li>
+                                <i class="fab fa-instagram"></i> <a href="https://www.instagram.com/ffmagico/"> instagram/</a>
+                            </li>
                             <br />
-                            <li>  <i class="fas fa-phone"></i>  (555) 556-546</li>
+                            <li>
+                            <i class="fab fa-whatsapp"></i>  (19) 55555-5555
+                                 </li>
                             <br />
-                            <li>  <i class="fas fa-envelope"></i> teste@gmail.com</li>
+                            <li>
+                                <i class="fas fa-envelope"></i> felipecunhafaccioli@gmail.com
+                                </li>
                         </ul>
                     </div>
 

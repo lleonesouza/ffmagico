@@ -1,8 +1,8 @@
 nav.slide-drawer {
   height: 100%;
   background: rgba(0, 0, 0, 0.623);
-  -webkit-box-shadow: 3px 8px 35px rgba(80, 80, 80, 0.651);
-          box-shadow: 3px 8px 35px rgba(80, 80, 80, 0.651);
+  -webkit-box-shadow: 3px 8px 35px rgba(181, 196, 219, 0.062);
+          box-shadow: 3px 8px 35px rgba(181, 196, 219, 0.062);
   position: fixed;
   top: 0;
   left: 0;
@@ -89,6 +89,6 @@ div.backdrop {
 .t-button div.t-button-line {
   height: 3px;
   width: 30px;
-  background: black;
+  background: #b5c4db;
 }
 /*# sourceMappingURL=sideNav.css.map */

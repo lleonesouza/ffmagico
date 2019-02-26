@@ -13,9 +13,10 @@ const slideDrawer = props => {
     return (
     <nav className={ChangeClass}>
         <ul>
-            <li> <a href="">Products</a> </li>
-
-            <li> <a href="">Users</a> </li>
+            <li> <a href="#header">Inicio</a> </li>
+            <li> <a href="#types">Trabalhos</a> </li>
+            <li> <a href="#content01">Sobre</a> </li>
+            <li> <a href="#content03">Contato</a> </li>
         </ul>
     </nav>
 

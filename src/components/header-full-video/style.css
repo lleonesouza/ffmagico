@@ -2,6 +2,19 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Royal';
+    font-style: normal;
+    src: local("Royal"), url(../../src/Royal.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Faith';
+    font-style: normal;
+    src: local("Faith"), url(../../src/Faith\ Collapsing.ttf) format('truetype');
+}
+
+
 body{
     overflow-x: hidden;
 }
@@ -52,8 +65,9 @@ body{
 
 .header-content h1{ 
     margin-top: 60px;
-    font-size: 50px;
+    font-size: 100px;
     opacity: 0.50;
+    font-family: 'Faith'
 }
 
 .header-content p{

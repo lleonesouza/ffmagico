@@ -2,7 +2,7 @@
     border-radius: 30px;
     width: 85%;
     height: 60vh;
-    background: rgba(219, 188, 52, 0.1);
+    margin-bottom: 100px;
 }
 
 #card .content{
@@ -34,13 +34,16 @@
 
 #card .front{
     filter: blur(10);
-    color: rgb(255, 251, 251)
+    color: rgb(255, 251, 251);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 #card .back{
     transform: rotateY(.5turn);
     background: rgb(0, 0, 0);
-    color: white
+    color: rgb(181, 196, 219);
 }
 
 #card .title{
@@ -50,7 +53,6 @@
     transform: translateZ(150px);
     font-family: 'Atifa';
     font-size: 1.4rem;
-    background: rgba(219, 188, 52, 0.1);
 }
 
 #card .subtitle{

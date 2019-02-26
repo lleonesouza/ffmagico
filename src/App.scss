@@ -42,10 +42,10 @@ div.grid-content0 .content{
     div.grid-content0{
         height: 100%;
     }
-    div.grid-content0 .content Card{
-        
+    div.grid-content0 .content{
         margin-top: 10px;
     }
+
 }
 
 @media(max-height: 420px){
@@ -156,19 +156,25 @@ div.content03 .title h1{
 
 @media(max-width: 700px){
     div.content03{
-        height: 130vh;
+        height: 130vw;
     }
 }
 
 @media(max-width: 600px){
     div.content03{
-        height: 100%;
+        height: 250vw;
+    }
+}
+
+@media(max-width: 350px){
+    div.content03{
+        height: 300vw;
     }
 }
 
 @media(max-height: 420px){
     div.content03{
-        height: 100%;
+        height: 180vh;
     }
 }
 

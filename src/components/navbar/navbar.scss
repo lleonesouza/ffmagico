@@ -11,7 +11,7 @@
 .nav hr {
         height:0; 
         border:0; 
-        border-top:1px solid rgb(181, 196, 219);; 
+        border-top:1px solid rgb(181, 196, 219);
       }
 
 
@@ -31,7 +31,6 @@ div.logo img{
 div.list{
     flex: 1;
     display: flex;
-    
 }
 
 div.list ul{
@@ -53,4 +52,21 @@ div.list ul li a{
 div.li ul li a:hover,
 div.li ul li a:active {
     color: #fa932f; 
+}
+
+.nav .side_nav{
+    display: none;
+    
+}
+
+@media(max-width: 420px){
+    div.list{
+        display: none;
+    } 
+    .nav .side_nav {
+        display: block
+    }
+    .nav hr{
+        border-top:1px solid rgba(181, 196, 219, 0);
+    }
 }

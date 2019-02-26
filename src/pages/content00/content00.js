@@ -12,17 +12,17 @@ export default function content00() {
       </div>
 
       <div className="content">
-    
-        <Card title="Eventos corporativos" description="Eventos em Reuinões e Eventos" background={require("../../src/type3.png")} />
 
-        <Card title="Mágica cara-a-cara!" description="Mágica frente a frente, da maneira old school" background={require("../../src/type1.png")} />
+          <Card  description="Eventos em Reuinões e Eventos" background={require("../../src/cards/corporativo.png")} />
 
-        <Card title="Intervenções" description="Intervenções em eventos e festivais" background={require("../../src/type2.png")} />
+          <Card  description="Mágica CARA a CARA!" background={require("../../src/type1.png")} />
 
-        <Card title="Festas particulares" description="Em festas particulares" background={require("../../src/type4.png")} />
-        
+          <Card  description="Intervenções em eventos e festivais" background={require("../../src/cards/eventos.jpg")} />
+
+          <Card  description="Em festas particulares" background={require("../../src/cards/particulares2.jpg")} />
+
       </div>
-      
+
     </div>
   )
 }
