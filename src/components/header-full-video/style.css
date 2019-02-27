@@ -48,6 +48,10 @@ body{
     min-height: 100%;
 }
 
+.fullscreen .second_video{
+    display: none;
+}
+
 @media (max-width: 700px){
     .fullscreen video{
         position: relative;
@@ -68,6 +72,20 @@ body{
     .fullscreen video{
         min-width: 50%;
         min-height: auto;
+    }
+
+    .fullscreen video:first-child{
+        position: relative;
+        right: 25%;
+    }
+
+    .fullscreen .second_video{
+        position: relative;
+        top: -5px;
+        right: 38%;
+        display: block;
+        min-width: 50%;
+        min-height: 55vh;
     }
 }
 

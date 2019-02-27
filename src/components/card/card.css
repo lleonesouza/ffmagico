@@ -35,9 +35,7 @@
 #card .front{
     filter: blur(10);
     color: rgb(255, 251, 251);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+    border: 1px black solid;
 }
 
 #card .back{

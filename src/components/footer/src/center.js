@@ -12,8 +12,8 @@ export default function center() {
                     <a href=""><i class="fab fa-facebook fa-2x"></i></a>
                     <hr width="15px"/>
                     <a href=""><i class="fab fa-instagram fa-2x"></i></a>
-                    <hr width="15px"/>
-                    <a href=""> <i class="fab fa-youtube fa-2x"></i></a>
+                    
+                    
                 </div>
                 
          
@@ -23,10 +23,10 @@ export default function center() {
 
             <div className="center">
                 <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Trabalhos</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="/#header">Inicio</a></li>
+                    <li><a href="/#types">Trabalhos</a></li>
+                    <li><a href="/#content01">Sobre</a></li>
+                    <li><a href="/#content03">Contato</a></li>
                 </ul>
                 <h3>MAPA</h3>
             </div>

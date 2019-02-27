@@ -14,19 +14,19 @@ const navbar = props => (
         <nav className="nav">
 
 
-                <hr width="40px" />
+                
 
                 < Logo />
 
 
                 <h1 className="text"> Felipe Faccioli </h1>
-                <hr width="350px" />
+                
 
                 < List />
 
 
 
-                <hr width="500px" />
+                
 
                 <div className="side_nav">
                 <hr width="100px" />

@@ -13,13 +13,13 @@ export default function content00() {
 
       <div className="content">
 
-          <Card  description="Eventos em Reuinões e Eventos" background={require("../../src/cards/corporativo.png")} />
+          <Card  title="titulo" subtitle="sub-titulo" description="Eventos em Reuinões e Eventos" background={require("../../src/cards/corporativo.png")} />
 
-          <Card  description="Mágica CARA a CARA!" background={require("../../src/type1.png")} />
+          <Card title="titulo" subtitle="sub-titulo" description="Mágica CARA a CARA!" background={require("../../src/cards/cara.jpg")} />
 
-          <Card  description="Intervenções em eventos e festivais" background={require("../../src/cards/eventos.jpg")} />
+          <Card  title="titulo" subtitle="sub-titulo" description="Intervenções em eventos e festivais" background={require("../../src/cards/eventos.jpg")} />
 
-          <Card  description="Em festas particulares" background={require("../../src/cards/particulares2.jpg")} />
+          <Card  title="titulo" subtitle="sub-titulo" description="Em festas particulares" background={require("../../src/cards/particulares2.jpg")} />
 
       </div>
 

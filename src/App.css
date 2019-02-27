@@ -73,7 +73,7 @@ div.grid-content0 .title h1 {
 div.content01 {
   height: 100%;
   width: 100%;
-  background: #050505;
+  background: rgba(5, 5, 5, 0.774);
 }
 
 div.content01 .title {
@@ -132,9 +132,86 @@ div.content01 .text-grid .text_grid_2 {
   grid-column: 2;
 }
 
-div.cotent02 {
-  height: 100vh;
+@media (max-width: 500px) {
+  div.content01 .text-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    width: 90%;
+  }
+  div.content01 .text-grid p {
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  div.content01 .text-grid hr {
+    display: none;
+  }
+}
+
+div.content02 {
+  height: 100%;
   width: 100%;
+  background: rgba(5, 5, 5, 0.774);
+}
+
+div.content02 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.content02 .title h1 {
+  font-family: 'Atifa';
+  color: #dbbc34;
+}
+
+div.contet02 p {
+  font-size: calc(10px + 2vmin);
+}
+
+div.content02 .text-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2.5fr 2fr 2fr 1fr;
+      grid-template-columns: 1fr 2.5fr 2fr 2fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+div.content02 .text-grid .text_grid_1 {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3/5;
+}
+
+div.content02 .text-grid .hr1 {
+  margin-top: -50px;
+}
+
+div.content02 .text-grid .text_grid_2 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 2;
+  grid-column: 2;
 }
 
 div.content03 {
@@ -147,6 +224,9 @@ div.content03 .title {
   height: 500px;
   border: 1px white solid;
   border-radius: 50px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background: rgba(0, 0, 0, 0.329);
 }
 
 div.content03 .title:hover {
