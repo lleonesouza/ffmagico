@@ -7,11 +7,11 @@ export default function center() {
                 <p>redes sociais</p>
 
                 <div className="social_media">
-                    <a href=""><i class="fab fa-whatsapp fa-2x"></i></a> 
+                    <a href="https://wa.me/5519997394489"><i class="fab fa-whatsapp fa-2x"></i></a> 
                     <hr width="15px"/>
-                    <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://www.facebook.com/ffmagico"><i class="fab fa-facebook fa-2x"></i></a>
                     <hr width="15px"/>
-                    <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://www.instagram.com/ffmagico/"><i class="fab fa-instagram fa-2x"></i></a>
                     
                     
                 </div>

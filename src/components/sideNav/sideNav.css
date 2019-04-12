@@ -82,6 +82,11 @@ div.backdrop {
           box-sizing: border-box;
 }
 
+.t-button.ajust {
+  position: relative;
+  left: 50%;
+}
+
 .t-button:focus {
   outline: none;
 }
@@ -89,6 +94,6 @@ div.backdrop {
 .t-button div.t-button-line {
   height: 3px;
   width: 30px;
-  background: #b5c4db;
+  background: white;
 }
 /*# sourceMappingURL=sideNav.css.map */

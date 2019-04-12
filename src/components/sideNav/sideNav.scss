@@ -69,6 +69,11 @@ nav.slide-drawer{
     box-sizing: border-box;
 }
 
+.t-button.ajust{
+  position: relative;
+  left: 50%;
+}
+
 .t-button:focus{
     outline: none;
 }
@@ -76,5 +81,5 @@ nav.slide-drawer{
 .t-button div.t-button-line {
     height: 3px;
     width: 30px; 
-    background: rgb(181, 196, 219);
+    background: white;
 } 

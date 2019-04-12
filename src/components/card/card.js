@@ -20,7 +20,7 @@ export default class card extends Component {
 
         const front =
             <div className="front" style={style}>
-                <h1 className="title">{this.state.title}</h1>
+                <h1 className="title">{this.state.title} </h1>
                 <h2 className="subtitle">{this.state.subtitle}</h2>
             </div>
 

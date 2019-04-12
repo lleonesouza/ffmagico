@@ -13,9 +13,7 @@ export default class content01 extends Component {
         <div className="text-grid">
         <br />
           <p> <hr  /> O projeto tem como proposta o artista em contato com o público! Trazendo a mágica moderna e casual, sem mangas, luzes ou assistentes, tudo acontece cara a cara!</p>
-          
           <hr  />
-          
           <p> Tudo de forma objetiva e dinâmica, com uma levada cômica, porém muito visual e impactante! O projeto se baseia no estilo "close-up", que é a nova tendência na mágica mundial! <hr  /></p>
           
           <br />

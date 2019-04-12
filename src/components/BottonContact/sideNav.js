@@ -31,12 +31,14 @@ class sidenav extends Component {
         return (
             <div className="div_contact">
 
-                < Button toggle={this.toggle_button_handler}/>
+               
 
                 < Sidenav open={this.state.sideOpen} />
                 
                 {hideBack}
 
+
+                < Button toggle={this.toggle_button_handler}/>
             </div>
         )
     }

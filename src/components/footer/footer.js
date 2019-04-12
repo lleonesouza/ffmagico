@@ -9,9 +9,8 @@ export default class footer extends Component {
     return (
       <div id="footer">
 
-            
-            
-            <hr width="100%"/>
+          
+          
            < Center />
 
            <hr width="100%"/>

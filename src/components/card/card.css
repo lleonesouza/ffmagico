@@ -36,7 +36,11 @@
     filter: blur(10);
     color: rgb(255, 251, 251);
     border: 1px black solid;
+    filter: contrast(120%);
 }
+
+
+
 
 #card .back{
     transform: rotateY(.5turn);
@@ -44,13 +48,21 @@
     color: rgb(181, 196, 219);
 }
 
+#card .back .description{
+    font-size: 26px;
+}
+
 #card .title{
-    text-shadow: 0.3px 0.3px 8px rgb(255, 255, 255);
+    position: relative;
+    top: 160px;
+    text-shadow: 1px 4px rgb(40, 49, 63);
     height: 100px;
-    color: rgb(0, 0, 0);
+    color: rgba(218, 187, 51, 0.9);
     transform: translateZ(150px);
-    font-family: 'Atifa';
-    font-size: 1.4rem;
+    font-size: 2.3rem;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.329) , rgba(0, 0, 0, 0.171));
+    border-bottom: 2px solid rgba(218, 187, 51, 0.9);
+    border-radius: 50px;
 }
 
 #card .subtitle{

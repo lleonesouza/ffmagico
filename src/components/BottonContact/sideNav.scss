@@ -62,12 +62,14 @@
 //Line Three Buttom
 .div_contact{
   width: 100%;
-  height: 90%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
+
 .t-button{
   display: flex;
   flex-direction: column;
@@ -81,6 +83,7 @@
 
 .t-button div.t-button-line {
     height: 3px;
+    
     width: 30px; 
-    background: rgb(0, 0, 0);
+    background: rgb(31, 31, 31);
 } 
