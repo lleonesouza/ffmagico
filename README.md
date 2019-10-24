@@ -1,5 +1,7 @@
-########################################
+------------
+Simple Single Page React Project with Springs
 
-simple react project with components independents
+live demo:
+https://lleonesouza.github.io/ffmagico
 
-########################################
+------------
